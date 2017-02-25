@@ -138,7 +138,7 @@ void setup()
     lcd.setCursor(0,0);
     lcd.print("WiFi connected");   // test edit 
   }else{
-    lcd.setCursor(0,0);
+    lcd.setCursor(0,0);  // test pull 
     lcd.print("WiFi failed");      
   }
   delay(3000);
