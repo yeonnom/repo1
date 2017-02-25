@@ -136,7 +136,7 @@ void setup()
   lcd.clear();
   if(wifi.getAPIp()!=NULL){
     lcd.setCursor(0,0);
-    lcd.print("WiFi connected");    
+    lcd.print("WiFi connected");   // test edit 
   }else{
     lcd.setCursor(0,0);
     lcd.print("WiFi failed");      
